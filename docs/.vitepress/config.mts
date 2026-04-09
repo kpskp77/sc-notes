@@ -5,6 +5,8 @@ export default defineConfig({
   description: 'SystemC 语言核心概念与仿真调度机制',
   appearance: 'dark',
   base: '/sc-notes/',
+  cleanUrls: false,
+  trailingSlash: true,
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
