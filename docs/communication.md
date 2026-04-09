@@ -8,7 +8,7 @@
 
 因此，在当前Evaluation阶段通过`read`获取的值是旧值， 下一个delta cycle的 Evaluation阶段之后才能获取新值。
 
-```cpp linenums="1" hl_lines="21 23 26 27"
+```cpp
 #include <systemc>
 using namespace sc_core;
 using namespace std;
