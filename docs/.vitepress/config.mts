@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'SystemC 学习笔记',
   description: 'SystemC 语言核心概念与仿真调度机制',
   appearance: 'dark',
+  base: '/sc-notes/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
