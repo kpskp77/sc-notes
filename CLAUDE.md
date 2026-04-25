@@ -10,16 +10,16 @@ This is a VitePress-based documentation site for SystemC learning notes. It cove
 
 ```bash
 # Install dependencies
-pnpm install
+bun install
 
 # Start local dev server
-pnpm docs:dev
+bun docs:dev
 
 # Build for production
-pnpm docs:build
+bun docs:build
 
 # Preview production build
-pnpm docs:preview
+bun docs:preview
 ```
 
 ## Architecture

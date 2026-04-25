@@ -6,12 +6,12 @@ default:
 
 [doc('start local dev server')]
 serve:
-  pnpm docs:dev
+  bun docs:dev
 
 [doc('build for production')]
 build:
-  pnpm docs:build
+  bun docs:build
 
 [doc('preview production build')]
 preview:
-  pnpm docs:preview
+  bun docs:preview

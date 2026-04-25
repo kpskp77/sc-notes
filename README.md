@@ -15,14 +15,14 @@ https://kpskp77.github.io/sc-notes/
 ## 本地开发
 
 ```bash
-pnpm install
-pnpm docs:dev
+bun install
+bun docs:dev
 ```
 
 ## 构建
 
 ```bash
-pnpm docs:build
+bun docs:build
 ```
 
 ## License
